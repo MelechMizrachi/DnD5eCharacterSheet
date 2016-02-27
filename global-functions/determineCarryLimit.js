@@ -8,6 +8,9 @@ function determineCarryLimit()
         case 'Goliath' :
             modifier = 2;
             break;
+        case 'Deep Gnome' :
+            modifier = .5;
+            break;
         case 'Halfling/Lightfoot Halfling' :
             modifier = .5;
             break;
