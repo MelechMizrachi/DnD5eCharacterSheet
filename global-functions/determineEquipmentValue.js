@@ -8,17 +8,11 @@ function determineEquipmentValue()
     var field;
     var EquipmentValField;
 
-    for (var i in fields) {
-        if (fields.hasOwnProperty(i)) {
-            field             = fields[i].value;
-            EquipmentValField = EquipmentValFields[i].value;
+    for (var i = 0; i < fields.length; i++) {
+        field             = fields[i].value;
+        EquipmentValField = EquipmentValFields[i].value;
 
-            if (!field) {
-                break;
-            }
-
-            total += (field * (EquipmentValField > 0 ? EquipmentValField : 1));
-        }
+        total += ((field > 0 ? field : 0) * (EquipmentValField > 0 ? EquipmentValField : 1));
     }
 
     return total;

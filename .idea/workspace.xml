@@ -22,41 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="determineEquipmentWeight.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="determineEquipmentWeight.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/global-functions/determineEquipmentWeight.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.12830189">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="determineSpellSlots.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global-functions/determineSpellSlots.js">
+      <file leaf-file-name="determineEquipmentValue.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/global-functions/determineEquipmentValue.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainClass.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form-functions/MainClass.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="determineSpellcastingStats.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/global-functions/determineSpellcastingStats.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17106918">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <caret line="14" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -104,9 +84,7 @@
         <option value="$PROJECT_DIR$/form-functions/currency/CP.js" />
         <option value="$PROJECT_DIR$/form-functions/SecondaryWeapon.js" />
         <option value="$PROJECT_DIR$/form-functions/TertiaryWeapon.js" />
-        <option value="$PROJECT_DIR$/global-functions/determineEquipmentWeight.js" />
         <option value="$PROJECT_DIR$/form-functions/EquipmentWeight.js" />
-        <option value="$PROJECT_DIR$/global-functions/determineEquipmentValue.js" />
         <option value="$PROJECT_DIR$/form-functions/EquipmentValue.js" />
         <option value="$PROJECT_DIR$/form-functions/SpellcastingClassDD.js" />
         <option value="$PROJECT_DIR$/global-functions/determineMaxHP.js" />
@@ -123,6 +101,8 @@
         <option value="$PROJECT_DIR$/global-functions/determineSpellSlots.js" />
         <option value="$PROJECT_DIR$/form-functions/MainClass.js" />
         <option value="$PROJECT_DIR$/form-functions/GP.js" />
+        <option value="$PROJECT_DIR$/global-functions/determineEquipmentValue.js" />
+        <option value="$PROJECT_DIR$/global-functions/determineEquipmentWeight.js" />
       </list>
     </option>
   </component>
@@ -223,7 +203,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -683,14 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global-functions/determineEquipmentValue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form-functions/EquipmentValue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -851,10 +823,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global-functions/determineEquipmentWeight.js">
+    <entry file="file://$PROJECT_DIR$/form-functions/GP.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-functions/determineSpellcastingStats.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3207547">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-functions/MainClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.014255765">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -867,26 +855,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form-functions/MainClass.js">
+    <entry file="file://$PROJECT_DIR$/global-functions/determineEquipmentValue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="14" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form-functions/GP.js">
+    <entry file="file://$PROJECT_DIR$/global-functions/determineEquipmentWeight.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/global-functions/determineSpellcastingStats.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17106918">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.12830189">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
