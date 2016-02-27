@@ -1,0 +1,1 @@
+event.value = determineSkillMod('DEX', 'ST CB Dex');

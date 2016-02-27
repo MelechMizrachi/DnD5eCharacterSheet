@@ -1,0 +1,1 @@
+event.value = determineSkillMod('WIS', 'SK CB Survival');

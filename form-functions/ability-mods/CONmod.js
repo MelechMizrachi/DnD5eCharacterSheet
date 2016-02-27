@@ -1,0 +1,1 @@
+event.value = determineMod('CON');

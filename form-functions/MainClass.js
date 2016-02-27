@@ -1,0 +1,3 @@
+determineSavingThrows();
+determineSpellcastingStats();
+determineSpellSlots();

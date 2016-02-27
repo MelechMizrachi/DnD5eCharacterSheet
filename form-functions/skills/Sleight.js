@@ -1,0 +1,1 @@
+event.value = determineSkillMod('DEX', 'SK CB Sleight');

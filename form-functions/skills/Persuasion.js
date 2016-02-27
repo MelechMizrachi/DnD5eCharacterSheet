@@ -1,0 +1,1 @@
+event.value = determineSkillMod('CHA', 'SK CB Persuasion');

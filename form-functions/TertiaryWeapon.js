@@ -1,0 +1,1 @@
+determineWeaponStats('Tertiary');

@@ -1,0 +1,1 @@
+event.value = determineSkillMod('STR', 'ST CB Str');
