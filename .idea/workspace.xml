@@ -22,41 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="determineBackgroundSkills.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global-functions/determineBackgroundSkills.js">
+      <file leaf-file-name="determineWeaponStats.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/global-functions/determineWeaponStats.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="determineRaceSkills.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global-functions/determineRaceSkills.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="determineSpeed.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global-functions/determineSpeed.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="determineCarryLimit.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/global-functions/determineCarryLimit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19958071">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.34926626">
+              <caret line="86" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="228" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -104,7 +74,6 @@
         <option value="$PROJECT_DIR$/form-functions/SpellcastingClassDD.js" />
         <option value="$PROJECT_DIR$/global-functions/determineMaxHP.js" />
         <option value="$PROJECT_DIR$/global-functions/determineShieldStats.js" />
-        <option value="$PROJECT_DIR$/global-functions/determineWeaponStats.js" />
         <option value="$PROJECT_DIR$/form-functions/Passive.js" />
         <option value="$PROJECT_DIR$/global-functions/determineTotalLevels.js" />
         <option value="$PROJECT_DIR$/global-functions/determineProfBonus.js" />
@@ -123,6 +92,7 @@
         <option value="$PROJECT_DIR$/global-functions/determineSpeed.js" />
         <option value="$PROJECT_DIR$/global-functions/determineCarryLimit.js" />
         <option value="$PROJECT_DIR$/global-functions/determineRaceSkills.js" />
+        <option value="$PROJECT_DIR$/global-functions/determineWeaponStats.js" />
       </list>
     </option>
   </component>
@@ -488,10 +458,10 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
     <frame x="-1448" y="-8" width="1456" height="2546" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18767908" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18767908" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -755,14 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/global-functions/determineWeaponStats.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30649894">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/global-functions/determineArmorStats.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45618448">
@@ -909,8 +871,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/global-functions/determineCarryLimit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19958071">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.17106918">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global-functions/determineWeaponStats.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34926626">
+          <caret line="86" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="228" selection-end-column="1" />
           <folding />
         </state>
       </provider>

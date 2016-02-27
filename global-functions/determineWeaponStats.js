@@ -69,22 +69,22 @@ function determineWeaponStats(type)
             DamageTypeName = DamageType[0];
             break;
         case 'Crossbow, light' :
-            WepType        = 'raged';
+            WepType        = 'ranged';
             DamageDie      = '1d8';
             DamageTypeName = DamageType[1];
             break;
         case 'Dart' :
-            WepType        = 'raged';
+            WepType        = 'ranged';
             DamageDie      = '1d4';
             DamageTypeName = DamageType[1];
             break;
         case 'Shortbow' :
-            WepType        = 'raged';
+            WepType        = 'ranged';
             DamageDie      = '1d6';
             DamageTypeName = DamageType[1];
             break;
         case 'Sling' :
-            WepType        = 'raged';
+            WepType        = 'ranged';
             DamageDie      = '1d4';
             DamageTypeName = DamageType[0];
             break;
