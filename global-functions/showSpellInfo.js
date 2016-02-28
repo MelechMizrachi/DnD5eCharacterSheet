@@ -12,7 +12,7 @@ function showSpellInfo(type)
         "duration"   : "",
         "description": ""
     };
-    var j = 0;
+    var j              = 0;
 
     switch (type) {
         case 0 :
@@ -56,7 +56,7 @@ function showSpellInfo(type)
 
     for (i = 0; i < spellInfoSlots.length; i++) {
         if (spellInfoSlots[i].value == '') {
-            j = i + 1;
+            j                                                = i + 1;
             this.getField('SpellInfoName.' + j).value        = spellInfo.name;
             this.getField('SpellInfoType.' + j).value        = spellInfo.type;
             this.getField('SpellInfoTime.' + j).value        = spellInfo.castingTime;
