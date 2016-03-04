@@ -1,15 +1,17 @@
 function determineWeaponStats(type)
 {
-    var weapon     = event.value;
-    var ProfBonus  = this.getField('ProfBonus').value;
-    var STRmod     = this.getField('STRmod').value;
-    var DEXmod     = this.getField('DEXmod').value;
-    var isProf     = this.getField(type + 'WeaponProficient').value != 'Off';
-    var WepType    = false;
+    var weapon         = event.value;
+    var ProfBonus      = this.getField('ProfBonus').value;
+    var STRmod         = this.getField('STRmod').value;
+    var DEXmod         = this.getField('DEXmod').value;
+    var isProf         = this.getField(type + 'WeaponProficient').value != 'Off';
+    var MainClass      = this.getField('MainClass').value;
+    var MainClassLevel = this.getField('MainClassLevel').value;
+    var WepType        = false;
     var DamageDie;
     var Attack;
     var Damage;
-    var DamageType = ['bludge', 'pierce', 'slash'];
+    var DamageType     = ['b', 'p', 's'];
     var DamageTypeName;
 
     switch (weapon) {
@@ -66,6 +68,22 @@ function determineWeaponStats(type)
         case 'Unarmed Strike' :
             WepType        = 'melee';
             DamageDie      = '1';
+
+            if (MainClass == 'Monk') {
+                if (MainClassLevel >= 17) {
+                    DamageDie = '1d10';
+                }
+                else if (MainClassLevel >= 11) {
+                    DamageDie = '1d8';
+                }
+                else if (MainClassLevel >= 5) {
+                    DamageDie = '1d6';
+                }
+                else if (MainClassLevel >= 1) {
+                    DamageDie = '1d4';
+                }
+            }
+
             DamageTypeName = DamageType[0];
             break;
         case 'Crossbow, light' :
@@ -215,12 +233,16 @@ function determineWeaponStats(type)
             Attack = WepType === 'ranged' ? DEXmod : STRmod;
             Damage = Attack;
         }
+
+        if (WepType == 'melee' && MainClass == 'Paladin' && MainClassLevel >= 11) {
+            DamageTypeName += ' +1d8 r';
+        }
     }
     else {
         DamageTypeName = '';
-        DamageDie = '';
-        Attack = '';
-        Damage = '';
+        DamageDie      = '';
+        Attack         = '';
+        Damage         = '';
     }
 
     this.getField(type + 'WeaponDamageDie').value  = DamageDie + ' ' + DamageTypeName;
