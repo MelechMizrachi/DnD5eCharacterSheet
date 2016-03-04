@@ -17,6 +17,9 @@ function determineSpellcastingStats()
         case 'Fighter' :
             modName = 'INT';
             break;
+        case 'Monk' :
+            modName = 'WIS';
+            break;
         case 'Paladin' :
             modName = 'CHA';
             break;

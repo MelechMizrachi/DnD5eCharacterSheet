@@ -1,10 +1,11 @@
 function determineSavingThrows()
 {
-    var MainClass  = event.value;
-    var firstSave  = false;
-    var secondSave = false;
-    var baseHP     = 6;
-    var XP         = this.getField('XP').value;
+    var MainClass      = event.value;
+    var firstSave      = false;
+    var secondSave     = false;
+    var baseHP         = 6;
+    var XP             = this.getField('XP').value;
+    var MainClassLevel = this.getField('MainClassLevel').value;
 
     switch (MainClass) {
         case 'Barbarian' :
@@ -82,6 +83,15 @@ function determineSavingThrows()
 
     if (secondSave) {
         this.getField("ST CB " + secondSave).value = 'Yes';
+    }
+
+    if (MainClass == 'Monk' && MainClassLevel >= 14) {
+        this.getField("ST CB Str").value = 'Yes';
+        this.getField("ST CB Dex").value = 'Yes';
+        this.getField("ST CB Con").value = 'Yes';
+        this.getField("ST CB Int").value = 'Yes';
+        this.getField("ST CB Wis").value = 'Yes';
+        this.getField("ST CB Cha").value = 'Yes';
     }
 
     if (XP == 0) {
