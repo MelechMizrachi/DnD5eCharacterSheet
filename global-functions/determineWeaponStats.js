@@ -13,6 +13,7 @@ function determineWeaponStats(type)
     var Damage;
     var DamageType     = ['b', 'p', 's'];
     var DamageTypeName;
+    var isFinesse      = false;
 
     switch (weapon) {
         case 'Club' :
@@ -24,6 +25,7 @@ function determineWeaponStats(type)
             WepType        = 'melee';
             DamageDie      = '1d4';
             DamageTypeName = DamageType[1];
+            isFinesse      = true;
             break;
         case 'Greatclub' :
             WepType        = 'melee';
@@ -66,8 +68,8 @@ function determineWeaponStats(type)
             DamageTypeName = DamageType[1];
             break;
         case 'Unarmed Strike' :
-            WepType        = 'melee';
-            DamageDie      = '1';
+            WepType   = 'melee';
+            DamageDie = '1';
 
             if (MainClass == 'Monk') {
                 if (MainClassLevel >= 17) {
@@ -95,6 +97,7 @@ function determineWeaponStats(type)
             WepType        = 'ranged';
             DamageDie      = '1d4';
             DamageTypeName = DamageType[1];
+            isFinesse      = true;
             break;
         case 'Shortbow' :
             WepType        = 'ranged';
@@ -165,16 +168,19 @@ function determineWeaponStats(type)
             WepType        = 'melee';
             DamageDie      = '1d8';
             DamageTypeName = DamageType[1];
+            isFinesse      = true;
             break;
         case 'Scimitar' :
             WepType        = 'melee';
             DamageDie      = '1d6';
             DamageTypeName = DamageType[2];
+            isFinesse      = true;
             break;
         case 'Shortsword' :
             WepType        = 'melee';
             DamageDie      = '1d6';
             DamageTypeName = DamageType[1];
+            isFinesse      = true;
             break;
         case 'Trident' :
             WepType        = 'melee';
@@ -195,6 +201,7 @@ function determineWeaponStats(type)
             WepType        = 'melee';
             DamageDie      = '1d4';
             DamageTypeName = DamageType[2];
+            isFinesse      = true;
             break;
         case 'Blowgun' :
             WepType        = 'ranged';
@@ -224,7 +231,7 @@ function determineWeaponStats(type)
     }
 
     if (WepType) {
-        if (isProf) {
+        if (isProf && isFinesse) {
             Attack = DEXmod > STRmod ? DEXmod : STRmod;
             Attack += ProfBonus;
             Damage = DEXmod > STRmod ? DEXmod : STRmod;

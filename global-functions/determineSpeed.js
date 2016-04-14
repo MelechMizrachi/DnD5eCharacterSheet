@@ -1,7 +1,7 @@
 function determineSpeed()
 {
     var race           = this.getField('RaceDD').value;
-    var MainClass      = this.getField('MainClass').value;
+    var MainClass      = event.value;
     var MainClassLevel = this.getField('MainClassLevel').value;
     var ArmorType      = this.getField('ArmorTypeDD').value;
     var speed          = 30;
@@ -20,9 +20,6 @@ function determineSpeed()
     }
     else if (race == 'Elf/Wood Elf') {
         speed = 35;
-    }
-    else if (race == 'Goliath') {
-        speed = 40;
     }
 
     if (MainClass == 'Monk' && ArmorType == 'No Armor') {
@@ -43,5 +40,5 @@ function determineSpeed()
         }
     }
 
-    return speed;
+    this.getField('Speed').value = speed;
 }

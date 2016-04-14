@@ -25,5 +25,5 @@ function determineCarryLimit()
             break;
     }
 
-    return STR * 15 * modifier;
+    this.getField('CarryLimit').value = STR * 15 * modifier;
 }

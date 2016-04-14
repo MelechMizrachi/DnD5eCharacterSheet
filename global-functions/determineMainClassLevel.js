@@ -5,5 +5,5 @@ function determineMainClassLevel()
 
     MultiClassLevel = MultiClassLevel ? MultiClassLevel : 0;
 
-    return parseInt(TotalLevels) + MultiClassLevel;
+    return parseInt(TotalLevels) - MultiClassLevel;
 }
